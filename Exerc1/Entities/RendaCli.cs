@@ -15,7 +15,7 @@
                 {
                     if (!(ValidaRenda(value)))
                     {
-                        Console.Write("Digite uma renda válida: ");
+                        Console.Write($"o valor digitado {value} é inválido, digite uma renda válida: ");
                         value = Console.ReadLine();
                     }
                     else

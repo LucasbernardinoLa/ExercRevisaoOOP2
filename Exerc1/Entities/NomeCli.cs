@@ -17,7 +17,7 @@
                     if (value.Length < 5)
                     {
                         Console.WriteLine();
-                        Console.Write("O nome deve conter ao menos 5 caracteres, digite um nome válido: ");
+                        Console.Write($"o valor digitado {value} é inválido, o nome deve conter ao menos 5 caracteres, digite um nome válido: ");
                         Console.WriteLine();
                         value = Console.ReadLine();
                     }

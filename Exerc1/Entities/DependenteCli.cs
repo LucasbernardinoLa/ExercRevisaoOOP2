@@ -15,7 +15,7 @@
                 {
                     if (!(VerificaDepen(value)))
                     {
-                        Console.Write("Digite novamente o número de dependentes: ");
+                        Console.Write($"o valor digitado {value} é inválido, digite novamente o número de dependentes: ");
                         value = Console.ReadLine();
                     }
                     else

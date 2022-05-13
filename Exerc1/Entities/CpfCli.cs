@@ -16,7 +16,7 @@
                     if (!(Validacpf(value)))
                     {
                         Console.WriteLine();
-                        Console.Write("Cpf inválido, digite novamente: ");
+                        Console.Write($"o valor digitado {value} é inválido, cpf inválido, digite novamente: ");
                         Console.WriteLine();
                         value = Console.ReadLine();
                     }

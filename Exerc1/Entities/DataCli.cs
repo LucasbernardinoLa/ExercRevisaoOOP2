@@ -18,7 +18,7 @@ namespace Exerc1.Entities
                     if (!(ValidaData(value)))
                     {
                         Console.WriteLine();
-                        Console.Write("digite uma nova data válida: ");
+                        Console.Write($"o valor digitado {value} é inválido, digite uma nova data válida: ");
                         Console.WriteLine();
                         value = Console.ReadLine();
                     }

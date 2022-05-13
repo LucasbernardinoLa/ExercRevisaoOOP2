@@ -15,7 +15,7 @@
                 {
                     if (!(ValidaEstado(value)))
                     {
-                        Console.Write("Digite novamente o caractere: ");
+                        Console.Write($"o valor digitado {value} é inválido, digite novamente o caractere: ");
                         value = Console.ReadLine();
                     }
                     else
